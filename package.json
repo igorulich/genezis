@@ -26,7 +26,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"react-scripts build",
+    "predeploy": "react-scripts build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

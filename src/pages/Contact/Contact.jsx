@@ -4,7 +4,7 @@ export class Contact extends Component {
   render() {
     return (
                  <div className={styled.Contact}>
-        <h1>контакт</h1>
+        <h1>контакти</h1>
 
 
       </div>
