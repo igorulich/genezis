@@ -1,44 +1,6 @@
-@import "./var";
-
+@import '../scss/fonts';
 body {
   margin: 0;
-
+  font-family: gilroy, sans-serif;
 }
 
-.App {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  background-color: $darck;
-  text-align: center;
-
-  h1 {
-    font-weight: 900;
-    font-size: calc(12px + 6.625vw);
-    line-height: calc(2.135417vh + 4.135417vh);
-    font-style: italic;
-    font-family: sans-serif;
-    color: $accented;
-  }
-
-  p {
-    text-align: center;
-    color: $white;
-    font-size: calc(10px + 2.625vw);
-    font-family: sans-serif;
-    font-weight: 400;
-
-    code {
-      color: $accented;
-      font-weight: 900;
-
-    }
-    b{
-      color:$green;
-      font-weight: 100;
-      font-style: italic;
-    }
-  }
-}
