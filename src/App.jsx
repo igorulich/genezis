@@ -1,6 +1,5 @@
 import {
-  BrowserRouter,
-  Routes,
+ Routes,
   Route,
 } from 'react-router-dom';
 import Header from './components/Header/Header';
@@ -12,16 +11,19 @@ import Сatalog from './pages/Catalog/Catalog';
 function App() {
   return (
     <>
-      <BrowserRouter>
+     
         <Header />
-        <Routes>
-          <Route  path="/Home"  element={<Home />}/>
-          <Route path="/Catalog" element={<Сatalog />}/>
-          <Route path="/About" element={<About />}/>
-          <Route path="/Blog" element={<Blog />}/>
-          <Route path="/Contact" element={<Contact />}/>
-        </Routes>
-      </BrowserRouter>
+      
+      <Routes>
+        
+            <Route index path='/home' element={<Home/>} />
+            <Route path="/catalog" element={<Сatalog/>} />
+            <Route path="/about" element={<About/> } />
+            <Route path="/blog" element={<Blog/> } />
+            <Route path="/contact" element={<Contact/>} />
+      </Routes>
+       
+     
     </>
   );
 }
