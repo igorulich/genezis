@@ -1,6 +1,9 @@
 @import '../scss/fonts';
+@import '../scss/var';
+
 body {
   margin: 0;
   font-family: gilroy, sans-serif;
+  background: $page;
 }
 
