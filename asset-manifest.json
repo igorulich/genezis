@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/genezis/static/css/main.58d3139d.css",
-    "main.js": "/genezis/static/js/main.8d4da56a.js",
+    "main.css": "/genezis/static/css/main.b2f47839.css",
+    "main.js": "/genezis/static/js/main.155f0a27.js",
     "static/media/Gilroy-Light 300.ttf": "/genezis/static/media/Gilroy-Light 300.1a25de360e096d7c3e24.ttf",
     "static/media/Gilroy-ExtraBold 800.ttf": "/genezis/static/media/Gilroy-ExtraBold 800.7a10067610dd985c2994.ttf",
     "index.html": "/genezis/index.html",
-    "main.58d3139d.css.map": "/genezis/static/css/main.58d3139d.css.map",
-    "main.8d4da56a.js.map": "/genezis/static/js/main.8d4da56a.js.map"
+    "main.b2f47839.css.map": "/genezis/static/css/main.b2f47839.css.map",
+    "main.155f0a27.js.map": "/genezis/static/js/main.155f0a27.js.map"
   },
   "entrypoints": [
-    "static/css/main.58d3139d.css",
-    "static/js/main.8d4da56a.js"
+    "static/css/main.b2f47839.css",
+    "static/js/main.155f0a27.js"
   ]
 }
