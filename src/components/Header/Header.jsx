@@ -1,22 +1,14 @@
 import React, { Component } from 'react'
 import styled from './Header.module.scss';
 import {
-BrowserRouter,
-   Routes,
-    Route,
-    Link,
+    Link
 } from 'react-router-dom';
 
-import Catalog from '../../pages/Catalog/Catalog'
-import Home from '../../pages/Home/Home';
-import About from '../../pages/About/About';
-import Blog from '../../pages/Blog/Blog';
-import Contact from '../../pages/Contact/Contact';
+
 export class Header extends Component {
   render() {
     return (
       <>
-        <BrowserRouter>
         <header className={styled.header}>
           <nav className={styled.nav}>
            <li className={styled.nav__item}>
@@ -36,17 +28,6 @@ export class Header extends Component {
             </li>
           </nav>
         </header>
-      
-          <Routes>
-            <Route  path="home" element={<Home />} />
-            <Route index element={<Home />} />
-            <Route path="catalog" element={<Catalog />} />
-            <Route path="about" element={<About />} />
-            <Route path="blog" element={<Blog />} />
-            <Route path="contact" element={<Contact />} />
-        </Routes>
-        
-      </BrowserRouter>
       </>
     )
   }
