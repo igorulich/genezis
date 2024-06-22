@@ -3,11 +3,11 @@ import {
   Route,
 } from 'react-router-dom';
 import Header from './components/Header/Header';
-import About from './pages/About/About';
-import Blog from './pages/Blog/Blog';
-import Contact from './pages/Contact/Contact';
-import Home from './pages/Home/Home';
-import Сatalog from './pages/Catalog/Catalog';
+import About from './components/pages/About/About';
+import Blog from './components/pages/Blog/Blog';
+import Contact from './components/pages/Contact/Contact';
+import Home from './components/pages/Home/Home';
+import Сatalog from './components/pages/Catalog/Catalog';
 function App() {
   return (
     <>
