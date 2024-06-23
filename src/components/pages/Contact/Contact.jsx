@@ -3,11 +3,11 @@ import styled from './Contact.module.scss'
 export class Contact extends Component {
   render() {
     return (
-                 <div className={styled.Contact}>
-        <h1>контакти</h1>
+      <section className={styled.contact}>
 
+        <h2>contact</h2>
 
-      </div>
+      </section>
     )
   }
 }

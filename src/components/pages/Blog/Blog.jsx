@@ -3,11 +3,11 @@ import styled from './Blog.module.scss'
 export class Blog extends Component {
   render() {
     return (
-             <div className={styled.Blog}>
-        <h1>Блог</h1>
+             <section className={styled.blog}>
+      
+<h2>blog</h2>
 
-
-      </div>
+      </section>
     )
   }
 }

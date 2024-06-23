@@ -2,6 +2,7 @@ import {
   BrowserRouter,
   Routes,
   Route,
+  Outlet,
 } from 'react-router-dom';
 import './scss/_App.scss';
 import Header from './components/Header/Header';
@@ -15,9 +16,11 @@ function App() {
     <>
       <BrowserRouter>
         <Header />
+        <Home />
+        <Outlet />
         <Routes>
 
-          <Route path="/" index element={<Home />} />
+          <Route index={true} element={<Home />} />
           <Route path="/catalog" element={<Сatalog />} />
           <Route path="/about" element={<About />} />
           <Route path="/blog" element={<Blog />} />

@@ -7,11 +7,11 @@ import Posters from '../../../../assets/header-poster-fon.png';
 export class Poster extends Component {
   render() {
     return (
-      <Container fluid className={styled.Posters}>
+      <Container fluid className={styled.posters}>
         <div className={styled.content__circles}>
-          <h2>sercles</h2>
+         
         </div>
-     <Image src={Posters} className={styled.Poster__img} fluid />;
+     <Image src={Posters} className={styled.poster__img} fluid />;
       </Container>
     )
   }

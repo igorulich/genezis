@@ -4,11 +4,11 @@ import Poster from './Poster/Poster';
 export class Home extends Component {
   render() {
     return (
-   
-      
-    <Poster/>
-      
-  
+      <section className='home'>
+
+        <Poster />
+      </section>
+
     )
   }
 }
