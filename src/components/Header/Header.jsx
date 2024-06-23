@@ -12,19 +12,19 @@ export class Header extends Component {
         <header className={styled.header}>
           <nav className={styled.nav}>
            <li className={styled.nav__item}>
-               <Link to="home"className={styled.item_linck}>Домашня сторінка</Link>
+               <Link to="/"className={styled.item_linck}>Домашня сторінка</Link>
             </li>
             <li className={styled.nav__item}>
-              <Link to="catalog"className={styled.item_linck}>Каталог</Link>
+              <Link to="/catalog"className={styled.item_linck}>Каталог</Link>
             </li>
             <li className={styled.nav__item}>
-              <Link to="about"className={styled.item_linck}>Про нас</Link>
+              <Link to="/about"className={styled.item_linck}>Про нас</Link>
             </li>
             <li className={styled.nav__item}>
-              <Link to="blog"className={styled.item_linck}>Блог</Link>
+              <Link to="/blog"className={styled.item_linck}>Блог</Link>
             </li>
             <li className={styled.nav__item}>
-              <Link to="contact"className={styled.item_linck}>Контакти</Link>
+              <Link to="/contact"className={styled.item_linck}>Контакти</Link>
             </li>
           </nav>
         </header>

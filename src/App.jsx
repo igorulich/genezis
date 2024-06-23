@@ -1,7 +1,9 @@
 import {
- Routes,
+  BrowserRouter,
+  Routes,
   Route,
 } from 'react-router-dom';
+import './scss/_App.scss';
 import Header from './components/Header/Header';
 import About from './components/pages/About/About';
 import Blog from './components/pages/Blog/Blog';
@@ -11,19 +13,19 @@ import Сatalog from './components/pages/Catalog/Catalog';
 function App() {
   return (
     <>
-     
+      <BrowserRouter>
         <Header />
-      
-      <Routes>
-        
-            <Route index path='/home' element={<Home/>} />
-            <Route path="/catalog" element={<Сatalog/>} />
-            <Route path="/about" element={<About/> } />
-            <Route path="/blog" element={<Blog/> } />
-            <Route path="/contact" element={<Contact/>} />
-      </Routes>
-       
-     
+        <Routes>
+
+          <Route path="/" index element={<Home />} />
+          <Route path="/catalog" element={<Сatalog />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
+
+        </Routes>
+      </BrowserRouter>
+
     </>
   );
 }
