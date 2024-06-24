@@ -5,7 +5,7 @@ export class Catalog extends Component {
     return (
       <section className={styled.catalog}>
       
-<h2>catalog</h2>
+
 
       </section>
     )

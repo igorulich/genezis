@@ -5,7 +5,7 @@ export class About extends Component {
     return (
           <section className={styled.about}>
        
-<h2>about</h2>
+
 
       </section>
     )

@@ -5,7 +5,7 @@ export class Contact extends Component {
     return (
       <section className={styled.contact}>
 
-        <h2>contact</h2>
+      
 
       </section>
     )
