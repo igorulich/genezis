@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/genezis/static/css/main.feb259da.css",
+    "main.css": "/genezis/static/css/main.358ce0af.css",
     "main.js": "/genezis/static/js/main.4f5030dc.js",
     "static/media/header-poster-fon.png": "/genezis/static/media/header-poster-fon.181b3626778ab1500f51.png",
     "static/media/header-poster-sircle2.png": "/genezis/static/media/header-poster-sircle2.12756afbeb7448f6b89b.png",
@@ -11,11 +11,11 @@
     "static/media/Gilroy-Light 300.ttf": "/genezis/static/media/Gilroy-Light 300.1a25de360e096d7c3e24.ttf",
     "static/media/Gilroy-ExtraBold 800.ttf": "/genezis/static/media/Gilroy-ExtraBold 800.7a10067610dd985c2994.ttf",
     "index.html": "/genezis/index.html",
-    "main.feb259da.css.map": "/genezis/static/css/main.feb259da.css.map",
+    "main.358ce0af.css.map": "/genezis/static/css/main.358ce0af.css.map",
     "main.4f5030dc.js.map": "/genezis/static/js/main.4f5030dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.feb259da.css",
+    "static/css/main.358ce0af.css",
     "static/js/main.4f5030dc.js"
   ]
 }
