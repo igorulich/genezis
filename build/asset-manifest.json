@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/genezis/static/css/main.64c43eef.css",
-    "main.js": "/genezis/static/js/main.ee52785e.js",
+    "main.css": "/genezis/static/css/main.feb259da.css",
+    "main.js": "/genezis/static/js/main.4f5030dc.js",
     "static/media/header-poster-fon.png": "/genezis/static/media/header-poster-fon.181b3626778ab1500f51.png",
     "static/media/header-poster-sircle2.png": "/genezis/static/media/header-poster-sircle2.12756afbeb7448f6b89b.png",
     "static/media/header-poster-sircle1.png": "/genezis/static/media/header-poster-sircle1.f462739da1af5e789dd1.png",
+    "static/media/ItemFon3.png": "/genezis/static/media/ItemFon3.6ff540a092fad82b74c2.png",
+    "static/media/ItemFon1.png": "/genezis/static/media/ItemFon1.8d812f5bba852bdeb055.png",
+    "static/media/ItemFon2.png": "/genezis/static/media/ItemFon2.272f6747d11fc0869fff.png",
     "static/media/Gilroy-Light 300.ttf": "/genezis/static/media/Gilroy-Light 300.1a25de360e096d7c3e24.ttf",
     "static/media/Gilroy-ExtraBold 800.ttf": "/genezis/static/media/Gilroy-ExtraBold 800.7a10067610dd985c2994.ttf",
     "index.html": "/genezis/index.html",
-    "main.64c43eef.css.map": "/genezis/static/css/main.64c43eef.css.map",
-    "main.ee52785e.js.map": "/genezis/static/js/main.ee52785e.js.map"
+    "main.feb259da.css.map": "/genezis/static/css/main.feb259da.css.map",
+    "main.4f5030dc.js.map": "/genezis/static/js/main.4f5030dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.64c43eef.css",
-    "static/js/main.ee52785e.js"
+    "static/css/main.feb259da.css",
+    "static/js/main.4f5030dc.js"
   ]
 }

@@ -3,7 +3,7 @@ import styled from './Poster.module.scss';
 import { Container } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image';
 import Posters from '../../../../assets/header-poster-fon.png';
-import Circle from '../../../../assets/header-poster-sircle2-1.png'
+import Circle from '../../../../assets/header-poster-sircle2-1.png';
 export class Poster extends Component {
   render() {
     return (
@@ -20,10 +20,10 @@ export class Poster extends Component {
            <Image src={Circle} className={styled.Circle} roundedCircle />
           </div>
         </div>
-     <Image src={Posters} className={styled.poster__img} fluid />;
+     <Image src={Posters} className={styled.poster__img} fluid />
       </Container>
     )
   }
 }
 
-export default Poster
+export default Poster;

@@ -14,13 +14,14 @@ import Сatalog from './components/pages/Catalog/Catalog';
 import Header from './components/Header/Header';
 import Poster from './components/pages/Home/Poster/Poster';
 
+
 function App() {
   return (
     <>
       <BrowserRouter>
         <Header />
-       <Poster/>
         <Outlet />
+        <Poster/>
         <Routes>
           <Route index={true} element={<Home />} />
           <Route path="/catalog" element={<Сatalog />} />
