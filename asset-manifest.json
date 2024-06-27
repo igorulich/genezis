@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/genezis/static/css/main.d1c82b51.css",
-    "main.js": "/genezis/static/js/main.71603d72.js",
+    "main.css": "/genezis/static/css/main.517c94c1.css",
+    "main.js": "/genezis/static/js/main.4fed8d99.js",
     "static/media/header-poster-fon.png": "/genezis/static/media/header-poster-fon.181b3626778ab1500f51.png",
     "static/media/header-poster-sircle2.png": "/genezis/static/media/header-poster-sircle2.12756afbeb7448f6b89b.png",
     "static/media/header-poster-sircle1.png": "/genezis/static/media/header-poster-sircle1.f462739da1af5e789dd1.png",
@@ -11,11 +11,11 @@
     "static/media/Gilroy-Light 300.ttf": "/genezis/static/media/Gilroy-Light 300.1a25de360e096d7c3e24.ttf",
     "static/media/Gilroy-ExtraBold 800.ttf": "/genezis/static/media/Gilroy-ExtraBold 800.7a10067610dd985c2994.ttf",
     "index.html": "/genezis/index.html",
-    "main.d1c82b51.css.map": "/genezis/static/css/main.d1c82b51.css.map",
-    "main.71603d72.js.map": "/genezis/static/js/main.71603d72.js.map"
+    "main.517c94c1.css.map": "/genezis/static/css/main.517c94c1.css.map",
+    "main.4fed8d99.js.map": "/genezis/static/js/main.4fed8d99.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1c82b51.css",
-    "static/js/main.71603d72.js"
+    "static/css/main.517c94c1.css",
+    "static/js/main.4fed8d99.js"
   ]
 }
