@@ -117,3 +117,16 @@
   color: $white;
   z-index: z('text');
 }
+.abouts__descr{
+  padding: 5% 0 8%;
+  @include relative;
+}
+.abouts__descr p{
+    font-style: normal;
+    font-weight: 600;
+  font-size: calc(12px + 20 * (100vw / 1920));
+  line-height: calc(15px + 2.635417vh);
+    text-align: center;
+    text-transform: uppercase;
+    color: $dark;
+}

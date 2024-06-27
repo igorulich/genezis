@@ -42,6 +42,9 @@ export class Abouts extends Component {
               <Image className={styled.itemFon1} src={ItemFon3} />
             </div>
           </div>
+          <div className={styled.abouts__descr}>
+          <p>Наша команда складається з мислячих професіоналів, які пишаються своєю роботою та прибутковістю</p>
+          </div>
         </Container>
       </div>
     )
